@@ -1,7 +1,7 @@
 import time
 
-import schemas.metadata_service_pb2 as metadata_service_pb2
-import schemas.metadata_pb2 as metadata_pb2
+import ga4gh.metadata_service_pb2 as metadata_service_pb2
+import ga4gh.metadata_pb2 as metadata_pb2
 
 class MetadataService(metadata_service_pb2.BetaMetadataServiceServicer):
 

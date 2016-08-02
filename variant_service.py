@@ -1,7 +1,7 @@
 import time
 
-import schemas.variant_service_pb2 as variant_service_pb2
-import schemas.variants_pb2 as variants_pb2
+import ga4gh.variant_service_pb2 as variant_service_pb2
+import ga4gh.variants_pb2 as variants_pb2
 
 class VariantService(variant_service_pb2.BetaVariantServiceServicer):
 

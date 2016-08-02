@@ -1,7 +1,7 @@
 import time
 
-import schemas.read_service_pb2 as read_service_pb2
-import schemas.reads_pb2 as reads_pb2
+import ga4gh.read_service_pb2 as read_service_pb2
+import ga4gh.reads_pb2 as reads_pb2
 
 class ReadService(read_service_pb2.BetaReadServiceServicer):
 
